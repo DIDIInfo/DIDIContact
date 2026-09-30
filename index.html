@@ -3,42 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Dr. Fazal Malik - DIDI</title>
+<title>Dr. Fazal H. Malik - DIDI</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
   body { background-color: #f4f6f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
-  .card { background: #ffffff; width: 100%; max-width: 400px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); overflow: hidden; text-align: center; }
-  .header { padding: 30px 20px 10px 20px; }
-  .logo { width: 130px; height: auto; margin-bottom: 20px; }
-  .photo { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 15px; }
-  .name { color: #d35400; font-size: 24px; font-weight: 700; margin-bottom: 5px; }
-  .title { color: #333; font-size: 16px; font-weight: 500; margin-bottom: 5px; }
-  .id { color: #888; font-size: 14px; margin-bottom: 25px; }
-  .details { padding: 0 30px 30px 30px; text-align: left; }
-  .detail-item { display: flex; align-items: center; margin-bottom: 15px; color: #444; font-size: 15px; text-decoration: none; }
-  .detail-item:hover { color: #d35400; }
-  .icon { width: 22px; margin-right: 10px; font-size: 18px; text-align: center; }
-  .btn-save { display: block; width: 100%; background-color: #d35400; color: #fff; text-align: center; padding: 14px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; margin-top: 10px; transition: background 0.3s; border: none; cursor: pointer; }
+  .card { background: #ffffff; width: 100%; max-width: 400px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); overflow: hidden; text-align: center; padding: 40px 30px; }
+  .logo { width: 140px; height: auto; margin-bottom: 25px; }
+  .name { color: #000; font-size: 26px; font-weight: 700; margin-bottom: 5px; }
+  .title { color: #333; font-size: 18px; font-weight: 500; margin-bottom: 15px; }
+  .org { color: #000; font-size: 16px; font-weight: 700; margin-bottom: 20px; line-height: 1.4; }
+  .contact { color: #444; font-size: 15px; line-height: 1.8; margin-bottom: 25px; }
+  .contact a { color: #444; text-decoration: none; }
+  .contact a:hover { color: #d35400; }
+  .btn-save { display: block; width: 100%; background-color: #d35400; color: #fff; text-align: center; padding: 14px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; transition: background 0.3s; border: none; cursor: pointer; }
   .btn-save:hover { background-color: #e67e22; }
 </style>
 </head>
 <body>
   <div class="card">
-    <div class="header">
-      <img src="didi-logo.png" alt="DIDI Logo" class="logo">
-      <img src="fazal-photo.jpg" alt="Fazal Malik" class="photo">
-      <div class="name">Fazal Malik</div>
-      <div class="title">Dean</div>
+    <img src="didi-logo.png" alt="DIDI Logo" class="logo">
+    
+    <div class="name">Dr. Fazal H. Malik</div>
+    <div class="title">Dean</div>
+    <div class="org">Dubai Institute of Design and Innovation</div>
+    
+    <div class="contact">
+      <a href="tel:+971507844691">Mob: +971 50 784 4691</a><br>
+      <a href="tel:+97145683551">Phone: +971 4 568 3551</a>
     </div>
-    <div class="details">
-      <a href="mailto:Fazal.Malik@didi.ac.ae" class="detail-item">
-        <span class="icon">✉️</span> Fazal.Malik@didi.ac.ae
-      </a>
-      <a href="https://www.didi.ac.ae" target="_blank" class="detail-item">
-        <span class="icon">🌐</span> www.didi.ac.ae
-      </a>
-      <a href="fazal-malik.vcf" download class="btn-save">Save to Contacts</a>
-    </div>
+    
+    <a href="fazal-malik.vcf" download class="btn-save">Save to Contacts</a>
   </div>
 </body>
 </html>
